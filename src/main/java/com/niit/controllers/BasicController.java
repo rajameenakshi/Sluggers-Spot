@@ -26,7 +26,7 @@ import com.portal.models.Product;
 public class BasicController {
 
 public ClientDAOImpl clientDAOImpl = (ClientDAOImpl) application_context.getBean("clientDAOImpl");
-String productPath = "C:\\Users\\vyasnikh\\Ecommerce\\src\\main\\webapp\\WEB-INF\\images\\product";
+String productPath = "C:\\Users\\DELL\\w2\\Ecommerce\\src\\main\\webapp\\WEB-INF\\images\\products";
 public CategoryDAOImpl categoryDAOImpl = (CategoryDAOImpl) application_context.getBean("categoryDAOImpl");
 public ProductDAOImpl productDAOImpl = (ProductDAOImpl) application_context.getBean("productDAOImpl");
 public SupplierDAOImpl supplierDAOImpl = (SupplierDAOImpl)application_context.getBean("supplierDAOImpl");

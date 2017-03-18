@@ -26,13 +26,9 @@ org.springframework.web.filter.DelegatingFilterProxy
       </servlet-class>
       <load-on-startup>1</load-on-startup>
    </servlet>
+     
 
-   <servlet-mapping>
-      <servlet-name>HelloWeb</servlet-name>
-      <url-pattern>/</url-pattern>
-      <url-pattern>*.flow</url-pattern>
-   </servlet-mapping>
-
+  
 <!-- Spring Context Config Location -->
 <context-param>
    <param-name>contextConfigLocation</param-name>
